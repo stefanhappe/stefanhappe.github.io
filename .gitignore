@@ -1,0 +1,101 @@
+# ---------------------------------------------
+# Windows Systemdateien
+# ---------------------------------------------
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS / Linux Systemdateien (falls doch mal jemand anders arbeitet)
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# ---------------------------------------------
+# Video-Rohdateien und Exporte
+# ---------------------------------------------
+*.mp4
+*.mov
+*.mxf
+*.braw
+*.avi
+*.mkv
+*.m4v
+*.wmv
+*.mts
+*.m2ts
+*.r3d
+*.prores
+*.webm
+
+# Audio-Rohdateien
+*.wav
+*.aif
+*.aiff
+
+# Export- und Render-Ordner
+/exports/
+/export/
+/renders/
+/render/
+/footage/
+/rohmaterial/
+/raw/
+
+# ---------------------------------------------
+# Große Bildordner / Bild-Rohdaten
+# ---------------------------------------------
+/bilder-raw/
+/images-raw/
+/fotos/
+/photos/
+/psd/
+*.psd
+*.psb
+*.ai
+*.tif
+*.tiff
+*.raw
+*.cr2
+*.cr3
+*.nef
+*.arw
+*.dng
+*.orf
+*.rw2
+
+# ---------------------------------------------
+# DaVinci Resolve
+# ---------------------------------------------
+*.drp
+*.drt
+*.drfx
+*.dra/
+/CacheClip/
+/ProxyMedia/
+/*.dra/
+.gallery/
+
+# Andere Videoschnitt-Projektdateien
+*.prproj
+*.veg
+*.fcpbundle
+
+# ---------------------------------------------
+# Editoren / Tools
+# ---------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+
+# Lokale Hilfsdateien
+node_modules/
+*.log
+*.tmp
+.env
+.env.local
